@@ -1,1 +1,73 @@
 /* Ini File CSS */
+
+main {
+    display: flex;
+    gap: 32px;
+    padding: 32px;
+}
+
+.main-header {
+    text-align: center;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+  }
+  
+  input[type=number]:focus {
+    background-color: lightgrey;
+  }
+
+form {
+    background-color: honeydew;
+    padding: 32px;
+    border-style: groove;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+}
+
+footer {
+    text-align: center;
+}
+
+.result-section {
+    text-align: center;
+    background-color: honeydew;
+    padding: 8px;
+}
+
+button {
+    padding: 8px;
+    color: navy;
+    border: none;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+.bg-antique-white {
+    background-color: antiquewhite;
+}
+#result-bmi {
+    font-size: xxx-large;
+    font-family: math;
+}
+
+/* CSS ini akan diterapkan jika lebar layar lebih kecil dari 480px */
+@media only screen and (max-width: 480px) {
+    main {
+        flex-direction: column;
+    }
+
+}
+    
